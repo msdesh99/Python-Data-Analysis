@@ -13,9 +13,9 @@ import streamlit as st
 #Variables
 path = "HUPA-UC Diabetes Dataset/"
 demographic_path = path + "T1DM_patient_sleep_demographics_with_race.csv"
-all_patients_path = path + "ALL_PATIENTS.csv"
-modified_demographic_path = path+"DEMOGRAPHIC.csv"
-patients_demographic_path = path +"PATIENTS_WITH_DEMOGRAPHIC.csv"
+all_patients_path = path + "Team11_Pyquesters_cleaned_ALL_PATIENTS.csv"
+modified_demographic_path = path+"Team11_Pyquesters_cleaned_DEMOGRAPHIC.csv"
+patients_demographic_path = path +"Team11_Pyquesters_cleaned_PATIENTS_WITH_DEMOGRAPHIC.csv"
 
 #Read csv file into dataframe
 demographic_df = pd.read_csv(modified_demographic_path)
