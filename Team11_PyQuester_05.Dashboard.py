@@ -11,11 +11,11 @@ import streamlit as st
 #   python -m streamlit run Dashboard.py
 
 #Variables
-path = "HUPA-UC Diabetes Dataset/"
-modified_demographic_path = path+"Team11_Pyquesters_cleaned_DEMOGRAPHIC.csv"
+#path = "HUPA-UC Diabetes Dataset/"
+demographic_cleaned_path = "Team11_Pyquesters_cleaned_DEMOGRAPHIC.csv"
 
 #Read csv file into dataframe
-demographic_df = pd.read_csv(modified_demographic_path)
+demographic_df = pd.read_csv(demographic_cleaned_path)
 
 #Sort dataset by age
 demographic_df.sort_values('age')
